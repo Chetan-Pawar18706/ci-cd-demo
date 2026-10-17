@@ -12,9 +12,8 @@ checkout scm
 stage('Test') {
 steps {
 echo 'Running Python tests'
-bat 'python --version'
-bat 'python -m unittest discover -s . -p "test_*.py" -v'
-}
+bat 'py --version'
+bat 'py -m unittest discover -s . -p "test_*.py" -v'
 }
 }
 post {
