@@ -16,6 +16,7 @@ bat 'py --version'
 bat 'py -m unittest discover -s . -p "test_*.py" -v'
 }
 }
+}
 post {
 success {
 echo 'CI Pipeline Successful!'
