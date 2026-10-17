@@ -12,8 +12,8 @@ checkout scm
 stage('Test') {
 steps {
 echo 'Running Python tests'
-bat 'py --version'
-bat 'py -m unittest discover -s . -p "test_*.py" -v'
+bat 'C:\\Users\\DELL\\AppData\\Local\\Programs\\Python\\Python314\\python.exe --version'
+bat 'C:\\Users\\DELL\\AppData\\Local\\Programs\\Python\\Python314\\python.exe -m unittest discover -s . -p "test_*.py" -v'
 }
 }
 }
